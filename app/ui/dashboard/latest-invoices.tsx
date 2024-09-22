@@ -7,6 +7,7 @@ export default async function LatestInvoices({
   latestInvoices,
 }: {
   latestInvoices: LatestInvoice[];
+  
 }) {
   return (
     <div className="flex w-full flex-col md:col-span-4">
